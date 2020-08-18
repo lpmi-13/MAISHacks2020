@@ -12,18 +12,29 @@ const Container = styled('div')`
   background-color: #38227D;
   ${SectionBase({
     heightPx: 700,
-    extHeightPx: 4096,
+  //s  extHeightPx: 4096,
     //backgroundImage: `url(${FAQGradient}), url(${FAQGradientExt})`,
     //backgroundIpadImage: `url(${FAQGradient}), url(${FAQGradientExt})`
   })};
+  @media screen and (max-width: 640px){
+    ${SectionBase({
+      heightPx: 200,
+    })};
+  }
+  @media screen and (max-width: 1025px){
+    ${SectionBase({
+      heightPx: 300,
+    })};
+  }
 `;
 
 const FAQContainer = styled('div')`
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: 1260px) {
+  @media screen and (min-width: 640px) {
     flex-direction: row;
   }
+
 `;
 
 const FAQColumn = styled('div')`

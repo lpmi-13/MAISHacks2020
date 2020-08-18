@@ -15,6 +15,15 @@ export const SecondaryText = css`
   color: #FFFFFF;
 `;
 
+export const LogoLand = props => css`
+background-position: center;
+background-image:${props.logoImage};
+  @media screen and (min-width: 640px){
+    background-image: ${props.mobileLogo};
+    background-position:: left top;
+  }
+`;
+
 export const SectionBase = props => css`
   max-width: ${MAX_WIDTH};
   margin: auto;
@@ -23,6 +32,8 @@ export const SectionBase = props => css`
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 400px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 
   :first-child {
     padding-top: 50;
@@ -169,49 +180,5 @@ export const HideOnMobile = ({ minWidth }) => css`
 
   @media screen and (min-width: ${minWidth || 768}px) {
     display: block;
-  }
-`;
-
-export const LandingSectionBase = props => css`
-  max-width: ${MAX_WIDTH};
-  height: 100%
-  margin: auto;
-  position: relative;
-  align: center;
-
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 400px;
-  padding-bottom: 10px;
-
-  :first-child {
-    padding-top: 50;
-  }
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-image: ${props.mobileBackgroundImage || 'none'};
-
-  @media screen and (min-width: 640px) {
-    min-height: ${props.heightPx}px;
-
-    background-image: ${props.backgroundIpadImage};
-    background-size: ${MAX_WIDTH} ${props.heightPx}px
-      ${props.extHeightPx && `, ${MAX_WIDTH} ${props.extHeightPx}px`};
-    background-position: left bottom, left ${props.heightPx - 1}px;
-
-    padding-left: 144px;
-    padding-right: 144px;
-    padding-top: 87.5px;
-    padding-bottom: 10px;
-  }
-
-  @media screen and (min-width: 1025px) {
-    background-image: ${props.backgroundImage};
-  }
-
-  @media screen and (min-width: ${MAX_WIDTH}) {
-    background-position: center top, center ${props.heightPx - 1}px;
   }
 `;

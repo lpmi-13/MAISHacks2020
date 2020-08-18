@@ -24,16 +24,15 @@ const Container = styled('div')`
     //backgroundImage: `url(${ScheduleLine}), url(${ScheduleLineExt})`,
     //backgroundIpadImage: `url(${ScheduleLine}), url(${ScheduleLineExt})`
   })};
-  background-color: #D2BBD4;
-  padding-bottom: 50px;
+  background-color: #5D518C;
   padding-top: 50px;
   border-radius: 20px;
-
+  padding-bottom: 50px;
 `;
 
 const Day = styled('h3')`
   ${PrimaryFont};
-  color: ${props => (props.active ? props.activeColor : '#4f4f4f')};
+  color: ${props => (props.active ? props.activeColor : '#272727')};
   transition: opacity 0.2s;
   cursor: pointer;
   /* https://css-tricks.com/injecting-line-break/ */
@@ -90,7 +89,7 @@ export default class Schedule extends React.Component {
               {scheduleData.map(({ date, events }, i) => (
                 <Day
                   active={i === selectedDayIndex}
-                  activeColor= '#647CBD'
+                  activeColor= '#d1f7ff'
                   key={date}
                   onClick={() => this.setState({ selectedDayIndex: i })}
                 >
@@ -101,7 +100,7 @@ export default class Schedule extends React.Component {
           </SectionLeftColumn>
           <SectionRightColumn>
             <ScheduleItemCard
-              titleColor='#647CBD'
+              titleColor='#d1f7ff'
               events={scheduleData[selectedDayIndex].events}
             />
           </SectionRightColumn>

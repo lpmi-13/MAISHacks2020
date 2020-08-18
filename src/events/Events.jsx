@@ -18,9 +18,14 @@ const Container = styled('div')`
     heightPx: 800,
   })};
   text-align: center;
-  @media screen and (max-width 520px){
+  @media screen and (max-width: 640px){
     ${SectionBase({
       heightPx: 1200,
+    })};
+  }
+  @media screen and (max-width: 1025px){
+    ${SectionBase({
+      heightPx: 1550,
     })};
   }
 `;
@@ -31,7 +36,7 @@ const Col= styled ('div')`
   grid-gap: 50px;
   vertical-align: top;
   padding: 20px;
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1025px){
     width:100%;
   }
 `;
@@ -79,11 +84,12 @@ const Img = styled('img')`
   background-color: #38227D;
   width: 100%;
   margin-bottom: -6em;
+  margin-left: 1em;
   display: block;
   @media screen and (max-width: 767px) {
     max-width: 415px;
     margin-bottom: 0em;
-    margin-left: -2em;
+    margin-left: 0em;
   }
 `;
 

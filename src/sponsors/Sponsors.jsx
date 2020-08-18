@@ -24,6 +24,17 @@ const Container = styled('div')`
   //  backgroundIpadImage: `url(${SponsorGradient})`
   })};
   padding-bottom: 90px;
+  @media screen and (max-width: 640px){
+    ${SectionBase({
+      heightPx: 100,
+    })};
+  }
+  @media screen and (max-width: 1025px){
+    ${SectionBase({
+      heightPx: 150,
+    })};
+  }
+
 `;
 
 const Logo = styled('img')`
@@ -31,7 +42,7 @@ const Logo = styled('img')`
   height: auto:
   object-fit:contain;
   -webkit-user-drag:none;
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 640px){
     width: 80%;
   }
 `;
@@ -56,7 +67,7 @@ export default ({ id, titleColor }) => (
     <SectionContent columns={true}>
       <LeftCol >
         <SectionTextContent>
-          <p>A big thank you to all of our sponsors!</p>
+          <p>A big thank you to our sponsors!</p>
           <p>Interested in sponsoring?</p>
           <p>
             <Button
