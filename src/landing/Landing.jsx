@@ -9,7 +9,7 @@ import Home from './Clouds_background.png';
 import LogoImage from './logo_with_wire.png';
 import MobileLogo from './maishacksfull-logo.png';
 
-import { SecondaryText, SectionTextContent, LandingSectionBase } from '../common-styles';
+import { SecondaryText, SectionTextContent, SectionBase, LogoLand } from '../common-styles';
 import { WHITE_PRESSABLE } from '../materials';
 import Button from '../Button';
 import { SectionLeftColumn, SectionRightColumn, SectionContent } from './style';
@@ -17,7 +17,7 @@ import { SectionLeftColumn, SectionRightColumn, SectionContent } from './style';
 
 const Container = styled('div')`
   background-color: #38227D;
-  ${LandingSectionBase({
+  ${SectionBase({
     heightPx: 920,
     backgroundImage: `url(${Home})`,
     //mobileBackgroundImage: `url(${HomeMobileTop}), url(${HomeMobileBottom})`,
@@ -25,9 +25,10 @@ const Container = styled('div')`
   })};
   display: flex;
 
-  @media screen and (min-width: 640px) {
-    display: block;
-    height: auto;;
+  @media screen and (max-width: 640px) {
+    ${SectionBase({
+      heightPx: 400,
+    })};
   }
 `;
 
@@ -39,25 +40,23 @@ const LandingContent = styled('div')`
   width: 100%;
   padding-bottom: 20px;
   display: inline-block;
+
   @media screen and (min-width: 640px) {
     margin: 0;
     padding-top: 122px;
     padding-bottom: 0;
   }
+
+
 `;
 
 const Logo = styled('img')`
-  width: 1500%;
+  width: 100%;
   margin-bottom: -12em;
   display: block;
   @media screen and (min-width: 640px) {
     max-width: 415px;
-    margin-bottom: 0em;
-
-    div::after{
-      content: url('maishacksfull-logo.png');
-
-    }
+    margin-bottom:0em;
   }
 `;
 
@@ -71,7 +70,7 @@ export default ({id, titleColor }) => (
 
     <SectionContent columns = {true}>
       <SectionLeftColumn>
-          <Logo src={LogoImage}/>
+          <Logo src={MobileLogo}/>
       </SectionLeftColumn>
       <SectionRightColumn>
       <SectionTitle titleColor='white'>
@@ -80,7 +79,7 @@ export default ({id, titleColor }) => (
       </SectionTitle>
       <br/>
         <SectionTextContent color='white'>
-         <p>Join 150+ of the brightest, most innovative students across Eastern Canada
+         <p>Join 150+ of the brightest, most innovative students from across Eastern Canada
          for a 24hr virtual AI hackathon.</p>
         </SectionTextContent>
         <Button

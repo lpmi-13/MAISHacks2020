@@ -25,11 +25,11 @@ export const SectionRightColumn = styled('div')`
   text-align: left;
   horizontal-align: left;
   @media screen and (min-width: 640px) {
-    padding-top: 40px;
+    padding-top: 10px;
   }
   @media screen and (min-width: 1260px) {
     padding-top: 0;
-    padding-left: 40px;
+    padding-left: 10px;
   }
 `;
 

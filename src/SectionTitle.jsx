@@ -10,7 +10,7 @@ const Title = styled('div')`
   ${LeftContentPadding};
   font-size: 2.5em;
   font-weight: bold;
-  color: #2b2b2b;
+  color: #FFFFFF;
   padding-top: 0.33em;
   @media screen and (min-width: 640px) {
     padding-top: 0.8em;

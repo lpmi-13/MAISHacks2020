@@ -40,13 +40,13 @@ const sections = [
   {
     title: 'Home',
     id: 'landing',
-    titleColor: 'black',
+    titleColor: '#FFFFFF',
     Component: Landing
   },
   {
     title: 'About',
     id: 'about',
-    titleColor: '#9BAAD7',
+    titleColor: '#d1f7ff',
     Component: About
   },
   {
@@ -58,7 +58,7 @@ const sections = [
   {
     title: 'Schedule',
     id: 'schedule',
-    titleColor: '#38227D',
+    titleColor: '#FFFFFF',
     Component: Schedule
   },
   {
@@ -70,7 +70,7 @@ const sections = [
   {
     title: 'Sponsors',
     id: 'sponsors',
-    titleColor: '#3398CC',
+    titleColor: '#26A9E0',
     Component: Sponsors
   }
 ];

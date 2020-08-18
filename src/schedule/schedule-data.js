@@ -59,8 +59,7 @@ export default [
       },
       {
         time: '11:00AM EST',
-        name: 'Submission Deadline',
-        locations: ['Activity 5']
+        name: 'Submission Deadline & Activity 5',
       },
       {
         time: '12:00PM-2:00PM EST',

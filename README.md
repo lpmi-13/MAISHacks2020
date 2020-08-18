@@ -4,12 +4,21 @@ Theme Colours:
 Dark blue: #0C113D
 Medium blue: #647CBD
 Light blue: #9BAAD7
+    #d1f7ff
 
 Dark purple: #2D0C33
 Medium purple: #5D518C
 Light Purple: #D2BBD4
 
 Background: #38227D
+
+@media and screen dimensions
+
+bbc.com: 600px, 1008px, 1280px
+
+implementai: 640px, 1025px, max-width
+
+
 
 ## Available Scripts
 

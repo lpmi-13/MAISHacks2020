@@ -22,7 +22,7 @@ const CenterContainer = styled('div')`
   font-weight: bold;
   max-width: ${MAX_WIDTH};
   margin: 0 auto;
-  @media screen and (min-width: 320px) {
+  @media screen and (max-width: 640px) {
     flex-direction: row;
   }
 `;
@@ -31,7 +31,7 @@ const CenterContent = styled('div')`
   flex-grow: 1;
   align-self: center;
   text-align: center;
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 640px) {
     width: auto;
   }
 `;
@@ -48,7 +48,6 @@ const footerLink = css`
 const SocialLinks = styled('div')`
   margin: auto;
   padding-bottom: 12px;
-  width: 700px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -59,7 +58,7 @@ const SocialLinks = styled('div')`
     margin: 0 8px;
     ${footerLink};
 
-    @media only screen and (max-width: 767px){
+    @media only screen and (max-width: 640px){
       font-size: 20px !important;
     }
   }
