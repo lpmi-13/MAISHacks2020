@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbe482bbeaf3f6082e44d2963bb346c0",
+    "revision": "7a2e7be531883c358d32fe3ca32ec560",
     "url": "/MAISHacks2020/index.html"
   },
   {
-    "revision": "94ab00af8a5789b031a0",
+    "revision": "8fff2c9644d63e2a8ae6",
     "url": "/MAISHacks2020/static/css/main.bd8b6a97.chunk.css"
   },
   {
-    "revision": "b3b440de180cc79c1b99",
-    "url": "/MAISHacks2020/static/js/2.1e994b7e.chunk.js"
+    "revision": "914dcbd76987483f3d03",
+    "url": "/MAISHacks2020/static/js/2.ddf1e1bd.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/MAISHacks2020/static/js/2.1e994b7e.chunk.js.LICENSE.txt"
+    "url": "/MAISHacks2020/static/js/2.ddf1e1bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94ab00af8a5789b031a0",
-    "url": "/MAISHacks2020/static/js/main.a4733016.chunk.js"
+    "revision": "8fff2c9644d63e2a8ae6",
+    "url": "/MAISHacks2020/static/js/main.035392c7.chunk.js"
   },
   {
     "revision": "d258f86e324934eb949b",
