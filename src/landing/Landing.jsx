@@ -50,6 +50,30 @@ const LandingContent = styled('div')`
 
 `;
 
+const LogoCont = styled('div')`
+  margin: auto;
+  position: relative;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 450px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left bottom;
+  background-image: url(${MobileLogo});
+  @media screen and (min-width: 1025px) {
+    background-image: url(${LogoImage});
+  }
+
+  @media screen and (max-width: 640px) {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+`;
+
 const Logo = styled('img')`
   width: 100%;
   margin-bottom: -12em;
@@ -70,7 +94,7 @@ export default ({id, titleColor }) => (
 
     <SectionContent columns = {true}>
       <SectionLeftColumn>
-          <Logo src={MobileLogo}/>
+          <LogoCont></LogoCont>
       </SectionLeftColumn>
       <SectionRightColumn>
       <SectionTitle titleColor='white'>

@@ -131,10 +131,10 @@ export default ({ id, titleColor }) => (
             <p> You can join{' '}
             <Link href="https://www.microsoft.com/en-US/microsoft-365/microsoft-teams/group-chat-software"
             target='_blank' rel='noopener noreferrer'>
-            Microsoft Teams</Link>in advance to be sure that on October 3rd you
+            Microsoft Teams</Link> in advance to be sure that on October 3rd you
             will be ready to hack! You will also need to create a {' '}
-            <Link href = "https://devpost.com/" target='_blank' rel='noopener noreferrer'>DevPost</Link>
-            account to submit your project at the end of the hackthon. </p>
+            <Link href = "https://devpost.com/" target='_blank' rel='noopener noreferrer'>DevPost</Link> account 
+            to submit your project at the end of the hackthon. </p>
             </AccordionItem>
 
           </Accordion>
