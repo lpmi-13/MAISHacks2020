@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mcgillaisociety.github.io/MAISHacks2020/",
+  "homepage": "https://mcgillaisociety.github.io/",
   "dependencies": {
     "@emotion/core": "^10.0.34",
     "@emotion/styled": "^10.0.27",
