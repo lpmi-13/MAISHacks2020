@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a2e7be531883c358d32fe3ca32ec560",
+    "revision": "c8093f549688cb8af0f4384db4e466ca",
     "url": "/MAISHacks2020/index.html"
   },
   {

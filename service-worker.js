@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MAISHacks2020/precache-manifest.69aaad940f4785c862be07c8b063b1a7.js"
+  "/MAISHacks2020/precache-manifest.b9de5715fdd68270722afc364ad3201c.js"
 );
 
 self.addEventListener('message', (event) => {
