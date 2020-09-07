@@ -9,7 +9,7 @@ import './index.css';
 
 
 const Container = styled('div')`
-  background-color: #38227D;
+  background-color: #2B1963;
   ${SectionBase({
     heightPx: 700,
   //s  extHeightPx: 4096,

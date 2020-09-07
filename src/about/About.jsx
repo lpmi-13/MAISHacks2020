@@ -8,7 +8,7 @@ import { SectionLeftColumn, SectionRightColumn, SectionContent } from './style';
 import SectionTitle from '../SectionTitle';
 
 const Container = styled('div')`
-  background-color: #38227D;
+  background-color: #2B1963;
   ${SectionBase({
     heightPx: 250,
     //extHeightPx: 4096,

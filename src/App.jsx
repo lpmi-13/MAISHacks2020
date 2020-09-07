@@ -64,13 +64,13 @@ const sections = [
   {
     title: 'FAQs',
     id: 'faqs',
-    titleColor: '#9BAAD7',
+    titleColor: '#d1f7ff',
     Component: FAQs
   },
   {
     title: 'Sponsors',
     id: 'sponsors',
-    titleColor: '#26A9E0',
+    titleColor: '#d1f7ff',
     Component: Sponsors
   }
 ];

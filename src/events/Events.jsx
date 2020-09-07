@@ -13,7 +13,7 @@ import {
 import Satellite from './satellite.png';
 
 const Container = styled('div')`
-  background-color: #38227D;
+  background-color: #2B1963;
   ${SectionBase({
     heightPx: 800,
   })};
@@ -81,7 +81,7 @@ const CardTitle = styled ('div')`
 `;
 
 const Img = styled('img')`
-  background-color: #38227D;
+  background-color: #2B1963;
   width: 100%;
   margin-bottom: -6em;
   margin-left: 1em;
