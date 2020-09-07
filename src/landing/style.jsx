@@ -2,7 +2,7 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 
 export const SectionLeftColumn = styled('div')`
-  background-color: '#38227D';
+  background-color: '#2B1963';
   max-width: 500px;
   display: inline-block;
   @media screen and (min-width: 1260px) {
