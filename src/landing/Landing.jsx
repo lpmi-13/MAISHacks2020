@@ -16,7 +16,7 @@ import { SectionLeftColumn, SectionRightColumn, SectionContent } from './style';
 
 
 const Container = styled('div')`
-  background-color: #38227D;
+  background-color: #2B1963;
   ${SectionBase({
     heightPx: 920,
     backgroundImage: `url(${Home})`,

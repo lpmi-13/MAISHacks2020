@@ -13,11 +13,15 @@ import Button from '../Button';
 import { WHITE_PRESSABLE } from '../materials';
 import SectionTitle from '../SectionTitle';
 import Wrnch from './wrnch_white.png';
+import Nvidia from './nvidia.png';
+import Intact from './intact.png';
 
+import SponsorLogos from './SponsorLogos'
 //import SponsorLogos from './SponsorLogos';
 //import SponsorGradient from './sponsors.svg';
 
 const Container = styled('div')`
+  background-color: #2B1963;
   ${SectionBase({
     heightPx: 200,
   //  backgroundImage: `url(${SponsorGradient})`,
@@ -39,6 +43,7 @@ const Container = styled('div')`
 
 const Logo = styled('img')`
   width: 50%;
+  display: block;
   height: auto:
   object-fit:contain;
   -webkit-user-drag:none;
@@ -79,8 +84,9 @@ export default ({ id, titleColor }) => (
           </p>
         </SectionTextContent>
       </LeftCol>
-        <Logo src={Wrnch}/>
+
       <SectionRightColumn>
+        <SponsorLogos/>
       </SectionRightColumn>
     </SectionContent>
   </Container>

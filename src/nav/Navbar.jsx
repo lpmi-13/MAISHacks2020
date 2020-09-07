@@ -23,7 +23,7 @@ const Nav = styled('div')`
   right: 0;
   height: ${navHeightPx}px;
   z-index: 64;
-  background-color: #38227D;
+  background-color: #2B1963;
 `;
 
 const NavItemsWrapper = styled('div')`
