@@ -14,7 +14,7 @@ import { WHITE_PRESSABLE } from '../materials';
 import SectionTitle from '../SectionTitle';
 import Wrnch from './wrnch_white.png';
 import Nvidia from './nvidia.png';
-import Intact from './intact.png';
+import Intact from './Intactlab_logo.png';
 
 import SponsorLogos from './SponsorLogos'
 //import SponsorLogos from './SponsorLogos';

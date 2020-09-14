@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 
 import Wrnch from './wrnch_white.png';
 import Nvidia from './nvidia.png';
-import Intact from './intact.png';
+import Intact from './Intactlab_logo.png';
 
 const LogoRow = styled('div')`
   display: flex;
