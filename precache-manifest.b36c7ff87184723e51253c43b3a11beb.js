@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2836c59b3faf77728c6d9b44f885667",
+    "revision": "7792bac17c20eba93b47fd95da21fa0c",
     "url": "/index.html"
   },
   {
-    "revision": "796a64098d0a8fe743d0",
+    "revision": "d80bbee73e19c7c6ddcd",
     "url": "/static/css/main.46883006.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.85d7e8ff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "796a64098d0a8fe743d0",
-    "url": "/static/js/main.142cac1f.chunk.js"
+    "revision": "d80bbee73e19c7c6ddcd",
+    "url": "/static/js/main.be8e9f23.chunk.js"
   },
   {
     "revision": "73635f645c271e35ff15",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a5f4be6c5dd3cd886a212eec917a00db",
     "url": "/static/media/Clouds_background.a5f4be6c.png"
+  },
+  {
+    "revision": "669c0e426ffa7747fd895b773bb3708b",
+    "url": "/static/media/Intactlab_logo.669c0e42.png"
   },
   {
     "revision": "4936e4451a066c298b484c9f59c73ed5",
@@ -78,10 +82,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e0da5af8553dd48460d254cdb678ec82",
     "url": "/static/media/fontello.e0da5af8.svg"
-  },
-  {
-    "revision": "48eb93d3ab259950175073c8bdc24cd4",
-    "url": "/static/media/intact.48eb93d3.png"
   },
   {
     "revision": "1929102bcb8cc67f2b8bda040528cc37",
