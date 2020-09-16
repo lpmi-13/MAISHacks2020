@@ -118,9 +118,7 @@ export default ({ id, titleColor }) => (
             </AccordionItem>
 
             <AccordionItem title= "Do I need to install any software?">
-            <p> We will be using {' '}
-            <Link href="https://www.microsoft.com/en-US/microsoft-365/microsoft-teams/group-chat-software"
-            target='_blank' rel='noopener noreferrer'>
+            <p> 
             We will be using Slack and Zoom.
             While you can access the platform through a web browser,
             we encourage all hackers to install these softwares
@@ -128,11 +126,7 @@ export default ({ id, titleColor }) => (
             </AccordionItem>
 
             <AccordionItem title="Do I need to create any accounts?">
-            <p> You can join{' '}
-            <Link href="https://www.microsoft.com/en-US/microsoft-365/microsoft-teams/group-chat-software"
-            target='_blank' rel='noopener noreferrer'>
-            Microsoft Teams</Link> in advance to be sure that on October 3rd you
-            will be ready to hack! You will also need to create a {' '}
+            <p> You will need to create a {' '}
             <Link href = "https://devpost.com/" target='_blank' rel='noopener noreferrer'>DevPost</Link> account 
             to submit your project at the end of the hackthon. </p>
             </AccordionItem>
