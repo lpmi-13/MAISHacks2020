@@ -38,7 +38,7 @@ export default [
       },
       {
         time: '5:00PM-6:00PM EST',
-        name: 'Workshop 3',
+        name: 'Workshop 3: Understanding Human Pose by Wrnch',
       },
       {
         time: '9:00PM EST',
