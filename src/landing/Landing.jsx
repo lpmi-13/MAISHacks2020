@@ -109,10 +109,10 @@ export default ({id, titleColor }) => (
         <Button
         //  landing
           material = {WHITE_PRESSABLE}
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfGulENexYZyEwkKKQlAJ3dut0127AuYnPNJ826pM8Zo4yC2w/viewform"
+          //href="https://docs.google.com/forms/d/e/1FAIpQLSfGulENexYZyEwkKKQlAJ3dut0127AuYnPNJ826pM8Zo4yC2w/viewform"
           target="_blank"
         >
-          APPLY NOW!
+          Applications Closed
         </Button>
       </SectionRightColumn>
     </SectionContent>
