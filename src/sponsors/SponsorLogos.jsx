@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import Wrnch from './wrnch_white.png';
 import Nvidia from './nvidia.png';
 import Intact from './Intactlab_logo.png';
+import Microsoft from './microsoft.png';
 
 const LogoRow = styled('div')`
   display: flex;
@@ -63,6 +64,11 @@ export default () => (
         alt="Intact"
         src={Intact}
         href="https://careers.intact.ca/ca/en"
+      />
+      <Logo
+        alt="Microsoft"
+        src={Microsoft}
+        href="https://careers.microsoft.com/students/us/en/"
       />
     </LogoRow>
 
