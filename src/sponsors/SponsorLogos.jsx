@@ -53,13 +53,13 @@ export default () => (
         src={Wrnch}
         href="https://wrnch.ai/careers/"
       />
-    </LogoRow>
-    <LogoRow>
       <Logo
         alt="Nvidia"
         src={Nvidia}
         href="https://www.nvidia.com/en-us/"
       />
+    </LogoRow>
+    <LogoRow>
       <Logo
         alt="Intact"
         src={Intact}
